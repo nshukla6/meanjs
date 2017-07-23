@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>POC</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+
+        <link href="/bootstrap.css" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
+        <script type="text/javascript"
+        src="/angular.js">
+        </script>
+        <script type="text/javascript"
+        src="/angular-route.js">
+        </script>
+        <script type="text/javascript"
+        src="/app.js">
+        </script>
+        
+    </head>
+    <header>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#!/home">Home</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#!/contact"><i class="fa fa-home"></i>Contact</a></li>
+				</ul>
+                <ul class="nav navbar-nav navbar-right">
+					<li><a href="#!/student"><i class="fa fa-home"></i>Student</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+    <body ng-app="app">
+        <ng-view></ng-view>
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  ></script>
+  
+    </body>
+</html>

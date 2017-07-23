@@ -1,0 +1,16 @@
+<h1 class="display-1">Home</h1>
+
+<div class="container">
+    <div ng-show="myVar">
+    <button class="btn btn-danger" ng-click="onPress()">Get Info</button>
+    </div>
+    <div class="panel panel-danger" ng-repeat="d in data">
+
+        <div class="panel-heading">{{d.name}}</div>
+        <div class="panel-body">{{d.age}}</div>
+        <div class="panel-footer">
+            <a href="#" class="btn btn-danger btn-sm">Agree</a>
+            <a href="#" class="btn btn-default btn-sm">Decline</a>
+        </div>
+    </div>
+</div>
